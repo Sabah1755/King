@@ -1,1 +1,10 @@
-body { font-family: Arial; background-color: #111; color: white; padding: 20px; } h1, h2 { color: #00aaff; } button { background-color: #00aaff; color: white; padding: 10px; border: none; }
+
+body { margin:0; font-family:sans-serif; background:#111; color:#fff; }
+header { background:#222; padding:10px; display:flex; justify-content:space-between; align-items:center; }
+header .logo { font-weight:bold; color:#0af; font-size:20px; }
+nav a { color:white; margin:0 10px; text-decoration:none; }
+main, footer { padding:20px; }
+h1, h2 { color:#0af; }
+form input, form textarea { margin:10px 0; padding:10px; width:90%; max-width:400px; }
+.button, button { background:#0af; color:white; border:none; padding:10px 20px; border-radius:5px; cursor:pointer; text-decoration:none; }
+footer { background:#222; text-align:center; font-size:12px; margin-top:30px; }
